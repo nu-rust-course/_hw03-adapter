@@ -1,5 +1,5 @@
 [package]
 name = "hw03-adapter"
-version = "0.1.0"
+version = "0.2020.0"
 authors = ["Jesse A. Tov <jesse@cs.northwestern.edu>"]
 edition = "2018"
