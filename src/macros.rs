@@ -102,6 +102,7 @@ macro_rules! adapt {
         [$($corrector_toks:tt)*]
         $($extra:item)*
     } => {
+        #[allow(missing_docs)]
         mod adaptations {
             use super::*;
             use ::hw03_tests as m;
