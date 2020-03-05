@@ -105,7 +105,7 @@ macro_rules! adapt {
         #[allow(missing_docs)]
         mod adaptations {
             use super::*;
-            use ::hw03_tests as m;
+            use ::hw03_adaptor as m;
             $($extra)*
             m::convert_correction!( $($correction_toks)* );
             m::adapt_corrector!( $($corrector_toks)* );
